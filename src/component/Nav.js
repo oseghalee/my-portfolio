@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
 import {Link as ScrollLink} from 'react-scroll'
-import { CSSTransition } from 'react-transition-group'
 import '../App.css'
 
 
@@ -14,11 +13,6 @@ const Nav = () => {
 ;    }
     const [active,setActive] = useState('menu1');
     const activeClick =  (menu) => {setActive(menu)};
-
-    // const [isMenuOpen, setMenuOpen] = useState(false);
-    // const selectClick = () => setMenuOpen(!isMenuOpen)
-    
-    
  
   return (
     <div className='w-full bg-blue-100 shadow fixed top-0 '>

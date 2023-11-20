@@ -3,17 +3,6 @@ import { Link } from 'react-router-dom';
 import {Link as ScrollLink} from 'react-scroll'
 
 const Body = (props) => {
-  // const date = new Date()
-  // const hours = date.getHours()
-  // let timeOfDay
-
-  // if (hours < 12) {
-  //   timeOfDay = "Morning"
-  // } else if (hours >= 12 && hours < 17) {
-  //   timeOfDay = "Afternoon"
-  // } else {
-  //   timeOfDay = "Eveving"
-  // }
   return (
     <div>
       <body className='container mx-auto pt-20 '>
