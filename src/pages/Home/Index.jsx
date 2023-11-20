@@ -1,5 +1,4 @@
 import React,{useEffect}  from 'react';
-import Nav from '../../component/Nav';
 import Body from '../../component/Body';
 import Cta from '../../component/Cta';
 

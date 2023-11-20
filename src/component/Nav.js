@@ -13,6 +13,7 @@ const Nav = () => {
 ;    }
     const [active,setActive] = useState('menu1');
     const activeClick =  (menu) => {setActive(menu)};
+    const hireMeClick = () => {setActive('menu4')}
  
   return (
     <div className='w-full bg-blue-100 shadow fixed top-0 '>
@@ -52,7 +53,7 @@ const Nav = () => {
               <img src={toggle?"../img/close.svg":"../img/hamburgerMenu.svg"} alt="" />
             </div>
             <div className=' justify-between items-end md:space-x-[35px]  md:flex'>
-             <ScrollLink to = "Cta" smooth={true} duration={500}>
+             <ScrollLink to = "Cta" smooth={true} duration={500} onClick={hireMeClick}>
                 <a href="" className='rounded-full px-5 py-2 mb-2 w-[110px] h-[45px] shadow-lg  text-lg text-center transition duration-300 ease-in-out text-white bg-purple-600 tracking-wider hover:bg-transparent hover:scale-110 hover:text-purple-600 hover:shadow-2xl hidden md:flex'>Hire me</a>
               </ScrollLink >
 
@@ -87,7 +88,7 @@ const Nav = () => {
               </ScrollLink>
             </div>
           <div>
-          <ScrollLink to = "Cta" smooth={true} duration={500}>
+          <ScrollLink to = "Cta" smooth={true} duration={500} onClick={hireMeClick}>
             <a href="" className='block bg-purple-600 rounded-full text-white text-center text-lg  p-3 px-6 pt-2 mt-2 mx-5 transition duration-300 ease-in-out  hover:scale-110 hover:bg-transparent hover:text-purple-600 hover:text-xl hover:border hover:border-purple-600 '>Hire me</a>
           </ScrollLink>
           </div>
