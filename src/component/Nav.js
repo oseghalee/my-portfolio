@@ -41,8 +41,8 @@ const Nav = () => {
                 <a href="" className={active=='menu3'?'text-purple-600 underline underline-offset-8 transition duration-300  ':'hover:text-purple-600 hover:underline underline-offset-8'}>About</a>
               </Link>
             </div>
-            <div onClick={()=>activeClick('menu4')}>
-              <ScrollLink to = "Cta" smooth={true} duration={500}>
+            <div>
+              <ScrollLink to = "Cta" smooth={true} duration={500} onClick={()=>activeClick('menu4')}>
                 <a href="" className={active=='menu4'?'text-purple-600 underline underline-offset-8 transition duration-300  ':'hover:text-purple-600 hover:underline underline-offset-8'}>Contact</a>
               </ScrollLink>
             </div>
