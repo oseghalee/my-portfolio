@@ -4,4 +4,44 @@
 #root{
   font-family: 'Reem Kufi', sans-serif;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,p{
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+  padding: 15px;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  box-shadow:rgba(8, 8, 8, .5) !important ;
+}
+
+.trans-enter {
+  opacity: 0;
+}
+
+.trans-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.trans-exit {
+  opacity: 1;
+}
+
+.trans-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
 }
