@@ -25,7 +25,7 @@ const Nav = () => {
               </Link>
             </a>           
           </div>
-          <div className='hidden font-semibold md:flex space-x-9  lg:text-lg '>
+          <div className='hidden font-semibold md:flex space-x-9 text-md  lg:text-lg '>
             <div onClick={()=>activeClick('menu1')} >
               <Link to = "/home">
                 <a href="" className={active=='menu1'  ?'text-purple-600 underline underline-offset-8 transition duration-300  ':'hover:text-purple-600 hover:underline underline-offset-8'} >Home</a>
