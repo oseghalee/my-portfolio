@@ -82,8 +82,8 @@ const Nav = () => {
                 <a href="" className={active=='menu3'?'text-purple-600':'hover:text-purple-600 hover:bg-gray-100' }>About</a>
               </Link>
             </div>
-            <div className='flex py-2 px-2  hover:rounded-sm' onClick={()=>activeClick('menu4')}>
-              <ScrollLink to = "Cta" smooth={true} duration={500}>
+            <div className='flex py-2 px-2  hover:rounded-sm' >
+              <ScrollLink to = "Cta" smooth={true} duration={500} onClick={()=>activeClick('menu4')}>
                 <a href="" className={active=='menu4'?'text-purple-600':'hover:text-purple-600 hover:bg-gray-100' } >Contact</a>
               </ScrollLink>
             </div>

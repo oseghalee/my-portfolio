@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 
 const Cta = () => {
   return (
-    <div className='px-6 '>
-      <div className='container mx-auto flex justify-center items-center pb-[5rem] pt-4 md:p-[5rem] w-full '>
+    <div className='px-6 pt-8' id='Cta'>
+      <div className='container mx-auto flex justify-center items-center pb-[5rem] md:pt-4 md:p-[5rem] w-full '>
         <div className='bg- items-center rounded-lg shadow-xl shadow-white p-4 py-7 md:p-8 md:px-16 md:flex md:gap-10 md:justify-start'>
           <div className=''>
             <h2 className='py-2 px-6 text-2xl font-semibold  text-purple-700 md:text-4xl md:max-w-sm md:text-left md:font-bold '>Bring to realization  your ideas...</h2>
