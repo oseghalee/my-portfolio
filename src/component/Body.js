@@ -14,7 +14,7 @@ const Body = (props) => {
             <p className='max-w-md text-center font-semibold text-xl text-gray-900 md:text-2xl md:text-left xl:text-4xl'>
                 {props.role}
             </p>
-            <p className='max-w-md text-center text-lg tracking-wider leading-8 line-clamp-4 px-5 text-gray-700 md:px-0 md:text-left md:text-lg xl:text-xl'>
+            <p className='max-w-md text-center text-lg tracking-wider leading-8 line-clamp-4 px-2 text-gray-700 md:px-0 md:text-left md:text-lg xl:text-xl'>
               {props.description}
             </p>
             <div className='flex justify-center pt-7  w-full gap-6 md:justify-start md:space-x-[35px] lg:[55px]'>
