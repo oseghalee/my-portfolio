@@ -1,22 +1,47 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import {Link as ScrollLink} from 'react-scroll'
 import '../App.css'
 
 
 const Nav = () => {
+  const[scrolling, setScrolling] = useState(false);
+  
+  useEffect(()=> {
+    const handleScroll = () => {
+      if(window.scrollY > 100){
+        setScrolling(true);
+      }
+      else{
+        setScrolling(false)
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return() =>{
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [])
+
+  const navbarStyle = {
+    backgroundColor: scrolling ? 'white' : 'transparent',
+    padding: '0px',
+    transition: 'background-color 0.1s ease',
+  };
+
+
     const [toggle,setToggle]= useState(false)
     const handleClick = () => setToggle(!toggle)
     const handleMenuItemClick = () => {
       setToggle(false);
-;    }
+    ;}
     const [active,setActive] = useState('menu1');
     const activeClick =  (menu) => {setActive(menu)};
     const hireMeClick = () => {setActive('menu4')}
  
   return (
-    <div className='w-full bg-blue-100 shadow fixed top-0 '>
+    <div className='w-full bg-blue-100 shadow fixed top-0'style={navbarStyle}>
       <nav className='container mx-auto border-b border-slate-300 w-full  '>
         <div className='flex items-center justify-between py-2 mx-4 md:mx-auto lg:mx-10  '>
           <div className=''>
