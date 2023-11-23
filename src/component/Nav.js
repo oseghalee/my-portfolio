@@ -22,7 +22,7 @@ const Nav = () => {
           <div className=''>
             <a href=" ">
               <Link to = "/home">
-                <img src="../img/logo1.png" alt="logo" className=' w-[105px]'/>
+                <img src="../img/logo1.png" alt="logo" className='w-[85px] md:w-[105px]'/>
               </Link>
             </a>           
           </div>
@@ -57,7 +57,7 @@ const Nav = () => {
                 <a href="" className='rounded-full px-5 py-2 mb-2 w-[110px] h-[45px] shadow-lg  text-lg text-center transition duration-300 ease-in-out text-white bg-purple-600 tracking-wider hover:bg-transparent hover:scale-110 hover:text-purple-600 hover:shadow-2xl hidden md:flex'>Hire me</a>
               </ScrollLink >
 
-              <img src="../img/profile-pic1.jpg" alt=" profile img"  className='w-[65px] h-[65px] rounded-full object-cover items-center'/>
+              <img src="../img/profile-pic1.jpg" alt=" profile img"  className=' w-[45px] h-[45px] rounded-full object-cover items-center md:w-[65px] md:h-[65px]'/>
             </div>
  
           </div>
