@@ -13,7 +13,7 @@ const Cta = () => {
           </div>
           <div>
             <h1 className='text-xl md:text-2xl font-bold text-center leading-6 tracking-wider text-black '>Contact</h1>
-            <h3 className='py-4 text-lg text-gray-700 text-center'>Call : +234 902 6898 778</h3>
+            <h3 className=' py-2 text-lg text-gray-700 text-center md:py-4'>Call : +234 902 6898 778</h3>
             <div className='flex justify-center items-center gap-4'>
               <a href="https://www.facebook.com/oseghale.osemudiamwen">
                 <div className='p-2 bg-purple-100 text-purple-900 rounded-md transition duration-300 ease-in-out hover:scale-110 ' ><FaFacebookF size = {20} /> </div>
