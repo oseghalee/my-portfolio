@@ -27,7 +27,7 @@ const Nav = () => {
   const navbarStyle = {
     backgroundColor: scrolling ? 'white' : 'transparent',
     padding: '0px',
-    transition: 'background-color 0s ease',
+    transition: 'background-color 0.2s ease',
   };
 
 
