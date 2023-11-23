@@ -9,7 +9,7 @@ const Body = (props) => {
         <div className=' flex flex-col-reverse w-full space-x-7 items-center mt-10 md:flex-row md:gap-4 lg:mx-10 lg:gap-20 xl:justify-between'>
           <div className='flex flex-col space-y-3 lg:space-y-8'>
             <h1 className='max-w-xl text-4xl font-bold text-center pt-10 md:text-5xl md:text-left xl:text-7xl'>
-              {props.intro} <span className='bg-clip-text text-transparent bg-gradient-to-r from-purple-900 to-purple-500 '>{props.name}</span>
+              {props.intro} <span className='bg-clip-text text-transparent bg-gradient-to-r brightness-100 from-purple-900 to-purple-500 '>{props.name}</span>
             </h1>
             <p className='max-w-md text-center font-semibold text-xl text-gray-900 md:text-2xl md:text-left xl:text-4xl'>
                 {props.role}

@@ -15,7 +15,7 @@ const Cta = () => {
             <h3 className=' py-2 text-lg text-gray-700 text-center'>Call : +234 902 6898 778</h3>
             <div className='flex justify-center items-center gap-4 pt-2'>
               <a href="https://www.facebook.com/oseghale.osemudiamwen">
-                <div className='p-2 bg-purple-100 text-purple-900 rounded-md transition duration-300 ease-in-out hover:scale-110 ' ><FaFacebookF size = {20} /> </div>
+                <div className='p-2 bg-purple-100 text-purple-900 rounded-md transition duration-300 ease-in-out hover:scale-110' ><FaFacebookF size = {20} /> </div>
               </a>
               <a href="https://instagram.com/osespecial1?igshid=c3E1emU4ZmYyczV2">
                 <div className='p-2 bg-purple-100 text-purple-900 rounded-md transition duration-300 ease-in-out hover:scale-110 ' ><FaInstagram size = {20} /> </div>
