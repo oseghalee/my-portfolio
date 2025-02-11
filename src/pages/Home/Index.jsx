@@ -8,7 +8,7 @@ const Index = () => {
   },[]);
 
   return (
-    <div className='' >
+    <div >
       <Body
         intro="Hi There I'm"
         name="Ose"
